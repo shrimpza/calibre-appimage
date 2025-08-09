@@ -113,7 +113,7 @@ jobs:
         run: |
           set -x # Print commands as they are executed for debugging
           # Download the latest appimagetool
-          wget https://github.com/AppImage/AppImageKit/releases/download/13/appimagetool-x86_64.AppImage
+          wget https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
           # Make it executable
           chmod +x appimagetool-x86_64.AppImage
 
