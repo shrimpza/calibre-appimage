@@ -79,7 +79,7 @@ jobs:
           # Download AppRun (runtime for the AppImage)
           # Using a specific release tag for stability
           #curl --location -o build/calibre.AppDir/AppRun https://github.com/AppImage/appimagetool/releases/download/continuous/AppRun-x86_64
-          curl --location -o build/calibre.AppDir/AppRun https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+          curl --location -o build/calibre.AppDir/AppRun https://github.com/AppImage/AppImageKit/releases/download/continuous/AppRun-x86_64
           
           chmod +x build/calibre.AppDir/AppRun
 
