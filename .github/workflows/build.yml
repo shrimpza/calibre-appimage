@@ -78,7 +78,9 @@ jobs:
 
           # Download AppRun (runtime for the AppImage)
           # Using a specific release tag for stability
-          curl --location -o build/calibre.AppDir/AppRun https://github.com/AppImage/appimagetool/releases/download/continuous/AppRun-x86_64
+          #curl --location -o build/calibre.AppDir/AppRun https://github.com/AppImage/appimagetool/releases/download/continuous/AppRun-x86_64
+          curl --location -o build/calibre.AppDir/AppRun https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+          
           chmod +x build/calibre.AppDir/AppRun
 
           # Create the usr/bin directory inside the AppDir
