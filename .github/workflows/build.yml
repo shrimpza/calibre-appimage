@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Build AppImage
-    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+    runs-on: ubuntu-24.04 # Use the latest Ubuntu runner
 
     steps:
       - name: Checkout code
